@@ -1,0 +1,11 @@
+package com.internousdev.login.dao;
+import java.sql.SQLException;
+
+import com.internousdev.login.dto.LoginDTO;
+
+
+public class LoginDAO {
+    public LoginDTO select(String name,String password) throws SQLException{
+LoginDTO dto=new LoginDTO();
+    }
+}

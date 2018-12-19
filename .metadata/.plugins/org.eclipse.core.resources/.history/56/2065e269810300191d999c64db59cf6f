@@ -1,0 +1,11 @@
+set names=utf8;
+set foreign_key_check=0;
+drop database if exists logindb sugimoto;
+create database logindb_sugimoto;
+use logindb_sugimoto;
+
+create table user(
+id int,
+user_name varchar(255),
+password varchar(255)
+);
