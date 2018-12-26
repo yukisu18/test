@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="リソース名 &apos;webproj&apos; を &apos;WebProj&apos; に変更します" description="リソース &apos;webproj&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/webproj" name="WebProj" stamp="1545817501272" updateReferences="true"/>&#x0A;<refactoring comment="リソース &apos;WelcomeAction.java&apos; を削除" deleteContents="false" description="リソース &apos;WelcomeAction.java&apos; を削除" element1="/WelcomeAction.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1545820871100"/>
+</session>
