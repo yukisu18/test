@@ -3,3 +3,8 @@
 0:0:0:0:0:0:0:1 - - [16/Jan/2019:20:37:14 +0900] "POST /WebProj2/HelloStrutsAction.action;jsessionid=043888C1BC750D768330931FB1E99947 HTTP/1.1" 200 192
 0:0:0:0:0:0:0:1 - - [16/Jan/2019:20:37:20 +0900] "POST /WebProj2/HelloStrutsAction.action;jsessionid=043888C1BC750D768330931FB1E99947 HTTP/1.1" 200 192
 0:0:0:0:0:0:0:1 - - [16/Jan/2019:20:37:25 +0900] "POST /WebProj2/HelloStrutsAction.action;jsessionid=043888C1BC750D768330931FB1E99947 HTTP/1.1" 200 192
+127.0.0.1 - - [16/Jan/2019:21:25:15 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [16/Jan/2019:21:25:19 +0900] "GET /WebProj2/ HTTP/1.1" 200 695
+0:0:0:0:0:0:0:1 - - [16/Jan/2019:21:25:23 +0900] "POST /WebProj2/WelcomeAction.action HTTP/1.1" 200 854
+0:0:0:0:0:0:0:1 - - [16/Jan/2019:21:25:31 +0900] "POST /WebProj2/LoginAction.action HTTP/1.1" 200 202
+0:0:0:0:0:0:0:1 - - [16/Jan/2019:21:25:43 +0900] "POST /WebProj2/LoginAction.action HTTP/1.1" 200 202
