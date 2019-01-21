@@ -1,6 +1,6 @@
-drop database if exists testdb_sugimoto;
-create database testdb_sugimoto;
-use testdb_sugimoto;
+drop database if exists testdb4;
+create database testdb4;
+use testdb4;
 
 create table users(
 user_id int primary key auto_increment,
