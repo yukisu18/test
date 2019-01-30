@@ -7,4 +7,6 @@
 <fullyQualifiedTypeName name="com.internousdev.webproj3.dao.InquiryComplete"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj3.util.DBConnector"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj4.dao.InquiryCompleteDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj4.dto.LoginDTO"/>
 </qualifiedTypeNameHistroy>
