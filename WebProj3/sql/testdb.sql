@@ -1,6 +1,6 @@
-drop database if exists testdb4;
-create database testdb4;
-use testdb4;
+drop database if exists testdb6;
+create database testdb6;
+use testdb6;
 
 create table users(
 user_id int primary key auto_increment,

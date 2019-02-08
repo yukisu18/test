@@ -17,16 +17,23 @@ public class LoginDAO {
 		Connection con = db.getConnection();
 		LoginDTO dto = new LoginDTO();
 
-		String sql = "select*form users where user_name=? and password=?";
+		String sql = "select * from users where user_name=? and password=?";
 		try {
+
+			System.out.println("☆1");
+			System.out.println(username);
+			System.out.println(password);
+
 			PreparedStatement ps = con.prepareStatement(sql);
 			ps.setString(1, username);
 			ps.setString(2, password);
 			ResultSet rs = ps.executeQuery();
 			if (rs.next()) {
+				System.out.println("☆2");
 				dto.setUsername(rs.getString("user_name"));
 				dto.setPassword(rs.getString("password"));
 			} else {
+				System.out.println("☆3");
 				dto.setUsername("該当なし");
 				dto.setPassword("該当なし");
 			}

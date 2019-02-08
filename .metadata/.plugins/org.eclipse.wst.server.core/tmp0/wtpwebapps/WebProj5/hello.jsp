@@ -16,13 +16,13 @@
 		<tbody>
 			<tr>
 				<th>USERID
-				<th>
+				</th>
 				<th>USERNAME
-				<th>
+				</th>
 				<th>PASSWORD
-				<th>
+				</th>
 				<th>RESULT
-				<th>
+				</th>
 			</tr>
 
 			<s:iterator value="helloStrutsDTOList">

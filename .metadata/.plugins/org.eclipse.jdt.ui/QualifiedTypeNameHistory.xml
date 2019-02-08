@@ -10,4 +10,5 @@
 <fullyQualifiedTypeName name="com.internousdev.webproj4.dto.LoginDTO"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj5.dto.HelloStrutsDTO"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
 </qualifiedTypeNameHistroy>
