@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="test/css" href="./css/style.css">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
 <title>LoginError</title>
 </head>
 <body>
@@ -24,12 +24,12 @@
 				<th>USERNAME</th>
 				<th>PASSWORD</th>
 			</tr>
-			<tr>
-				<s:iterator value="#session.loginDTOList">
+			<s:iterator value="#session.loginDTOList">
+				<tr>
 					<td><s:property value="username" /></td>
 					<td><s:property value="password" /></td>
-				</s:iterator>
-			</tr>
+				</tr>
+			</s:iterator>
 		</tbody>
 	</table>
 </body>

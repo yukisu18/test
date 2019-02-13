@@ -29,7 +29,7 @@ public class TestAction extends ActionSupport implements SessionAware {
 			ret = ERROR;
 		}
 		loginDTOList = dao.select(username, password);
-		session.put("loginDTOlist", loginDTOList);
+		session.put("loginDTOList", loginDTOList);
 
 		return ret;
 	}
