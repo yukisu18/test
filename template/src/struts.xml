@@ -11,11 +11,16 @@
 	<package name="com.internousdev.template.action" extends="struts-default">
 
 
-<!-- HomeAction -->
+		<!-- HomeAction -->
 		<action name="HomeAction" class="com.internousdev.template.action.HomeAction"
 			method="execute">
 			<result name="success">login.jsp</result>
 		</action>
-
+		<!--LoginAction -->
+		<action name="LoginAction" class="com.internousdev.template.action.LoginAction"
+			method="execute">
+			<result name="success">buyitem.jsp</result>
+			<result name="error">home.jsp</result>
+		</action>
 	</package>
 </struts>
