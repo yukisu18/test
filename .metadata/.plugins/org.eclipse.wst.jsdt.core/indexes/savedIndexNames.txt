@@ -3,7 +3,6 @@ INDEX VERSION 1.3+C:\Users\testuser\Desktop\workspace\workspace-sugimoto\test\.m
 2055351946.index
 3333329864.index
 2107518008.index
-3461444228.index
 69356775.index
 1549101164.index
 185286105.index
