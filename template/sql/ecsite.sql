@@ -1,9 +1,9 @@
-set name utf8;
+set names utf8;
 set foreign_key_checks=0;
-drop database if exists ecsite;
+drop database if exists ecsite_sugimoto;
 
-create database if not exists ecsite;
-use ecsite;
+create database if not exists ecsite_sugimoto;
+use ecsite_sugimoto;
 
 drop table if exists login_user_transaction;
 
@@ -18,7 +18,7 @@ updated_date datetime
 
 drop table if exists item_info_transaction;
 
-create table user_buy_item_transaction(
+create table item_info_transaction(
 id int not null primary key auto_increment,
 item_name varchar(30),
 item_price int,
