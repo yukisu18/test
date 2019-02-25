@@ -66,3 +66,6 @@
 127.0.0.1 - - [22/Feb/2019:21:25:44 +0900] "GET / HTTP/1.1" 404 1019
 0:0:0:0:0:0:0:1 - - [22/Feb/2019:21:25:46 +0900] "GET /template/buyItemConfirm.jsp HTTP/1.1" 200 1894
 0:0:0:0:0:0:0:1 - - [22/Feb/2019:21:25:48 +0900] "POST /template/BuyItemAction HTTP/1.1" 200 3443
+127.0.0.1 - - [22/Feb/2019:21:28:38 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [22/Feb/2019:21:28:40 +0900] "GET /template/buyItemComplete.jsp HTTP/1.1" 200 1448
+0:0:0:0:0:0:0:1 - - [22/Feb/2019:21:28:43 +0900] "GET /template/MyPageAction.action HTTP/1.1" 200 3441

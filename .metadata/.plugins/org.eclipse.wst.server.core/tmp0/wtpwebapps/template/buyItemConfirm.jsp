@@ -70,7 +70,7 @@ table {
 			<p>BuyItemConfirm</p>
 		</div>
 		<div>
-			<s:form action="BuyItemAction">
+			<s:form action="BuyItemConfirmAction">
 				<table>
 					<tr>
 						<td>商品名</td>
