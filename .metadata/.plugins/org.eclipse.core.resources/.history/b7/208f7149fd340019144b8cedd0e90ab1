@@ -1,8 +1,0 @@
-package com.internousdev.template.dao;
-
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-
-public class UserCreateCompleteDAO {
-
-}

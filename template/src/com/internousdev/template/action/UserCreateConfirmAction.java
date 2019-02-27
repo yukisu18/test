@@ -18,9 +18,9 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 		String result = SUCCESS;
 
 		if (!(loginUserId.equals("")) && !(loginPassword.equals("")) && !(userName.equals(""))) {
-			session.put("loginUserId", "loginUserId");
-			session.put("loginPassword", "loginPassword");
-			session.put("userName", "userName");
+			session.put("loginUserId", loginUserId);
+			session.put("loginPassword", loginPassword);
+			session.put("userName", userName);
 		} else {
 			setErrorMessage("未入力の項目があります。");
 			result = ERROR;

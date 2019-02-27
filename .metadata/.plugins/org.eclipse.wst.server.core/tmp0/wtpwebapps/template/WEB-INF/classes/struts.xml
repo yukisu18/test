@@ -19,7 +19,7 @@
 		<!--LoginAction -->
 		<action name="LoginAction" class="com.internousdev.template.action.LoginAction"
 			method="execute">
-			<result name="success">buyitem.jsp</result>
+			<result name="success">buyItem.jsp</result>
 			<result name="error">home.jsp</result>
 		</action>
 		<!-- UserCreateAction -->
@@ -43,7 +43,7 @@
 			<result name="success">userCreateComplete.jsp</result>
 		</action>
 		<!-- BuyItemAction -->
-		<action name="BuyAction" class="com.internousdev.template.action.BuyItemAction"
+		<action name="BuyItemAction" class="com.internousdev.template.action.BuyItemAction"
 			method="execute">
 			<result name="success">buyItemConfirm.jsp</result>
 		</action>
