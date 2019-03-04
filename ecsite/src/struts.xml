@@ -9,5 +9,7 @@
 	<constant name="struts.devMode" value="true" />
 	<!-- 対象のpackageを設定 -->
 	<package name="com.internousdev.template.action" extends="struts-default">
-	</package>
-	</struts>
+
+
+</package>
+</struts>
