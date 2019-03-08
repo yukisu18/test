@@ -13,7 +13,6 @@ public class UserCreateCompleteAction extends ActionSupport implements SessionAw
 	private String loginPassword;
 	private String userName;
 	private Map<String, Object> session;
-	private UserCreateCompleteDAO userCreateCompleteDAO=new UserCreateCompleteDAO();
 
 	public String execute() throws SQLException {
 		UserCreateCompleteDAO userCreateCompleteDAO = new UserCreateCompleteDAO();
