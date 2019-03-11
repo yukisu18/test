@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="リソース名 &apos;ecsite/WebContent/Mypage.jsp&apos; を &apos;mypage.jsp&apos; に変更します" description="リソース &apos;Mypage.jsp&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/Mypage.jsp" name="mypage.jsp" stamp="1552302174927" updateReferences="true"/>&#x0A;<refactoring comment="リソース名 &apos;ecsite/WebContent/mypage.jsp&apos; を &apos;myPage.jsp&apos; に変更します" description="リソース &apos;mypage.jsp&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/mypage.jsp" name="myPage.jsp" stamp="1552302283162" updateReferences="true"/>
+</session>
