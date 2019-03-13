@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE struts PUBLIC
-"-//Apache Software Foundation//DTD Struts onfiguration 2.3//EN"
+"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
 "http://struts.apache.org/dtds/struts-2.3.dtd">
 <!-- Strutsの詳細設定 -->
 
@@ -9,8 +9,8 @@
 	<constant name="struts.devMode" value="true" />
 	<!-- 対象のpackageを設定 -->
 	<package name="com.internousdev.ecsite.action" extends="struts-default">
-		<!--GOHomeAction -->
-		<action name="GOHomeAction" class="com.internousdev.ecsite.action.GoHomeAction"
+		<!--GoHomeAction -->
+		<action name="GoHomeAction" class="com.internousdev.ecsite.action.GoHomeAction"
 			method="execute">
 			<result name="success">home.jsp</result>
 		</action>
@@ -39,7 +39,7 @@
 			<result name="error">userCreate.jsp</result>
 		</action>
 		<!-- UserCreateCompleteAction -->
-		<action name="userCreateCompleteAction"
+		<action name="UserCreateCompleteAction"
 			class="com.internousdev.ecsite.action.UserCreateCompleteAction"
 			method="execute">
 			<result name="success">userCreateComplete.jsp</result>
