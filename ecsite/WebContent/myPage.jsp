@@ -9,6 +9,7 @@
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta http-equiv="imagetoolbar" content="no" />
 <meta name="description" content="" />
+<meta name="keywords" content=""/>
 <title>MyPage画面</title>
 <style type="text/css">
 
@@ -70,7 +71,7 @@ table {
 			<p>MyPage</p>
 		</div>
 		<div>
-			<s:if test="message==null">
+			<s:if test="MyPageList==null">
 				<h3>ご購入情報はありません。</h3>
 			</s:if>
 			<s:elseif test="message==null">
@@ -93,7 +94,7 @@ table {
 						</tr>
 					</s:iterator>
 				</table>
-				<s:form action="MypageAction">
+				<s:form action="MyPageAction">
 					<input type="hidden" name="deleteFlg" value="1">
 					<s:submit value="削除" method="delete" />
 				</s:form>

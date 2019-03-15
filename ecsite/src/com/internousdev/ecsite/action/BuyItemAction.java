@@ -7,18 +7,17 @@ import org.apache.struts2.interceptor.SessionAware;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class BuyItemAction extends ActionSupport implements SessionAware {
-	private int stock;
-	private String pay;
 	public Map<String, Object> session;
-	private String result;
+	private int count;
+	private String pay;
 
 	public String execute() {
-		result = SUCCESS;
+		String result = SUCCESS;
 
-		session.put("stock", stock);
-		int intStock = Integer.parseInt(session.get("stock").toString());
+		session.put("count", count);
+		int intCount = Integer.parseInt(session.get("count").toString());
 		int intPrice = Integer.parseInt(session.get("buyItem_price").toString());
-		session.put("buyItem_price", intStock * intPrice);
+		session.put("total_price", intCount * intPrice);
 		String payment;
 
 		if (pay.equals("1")) {
@@ -31,12 +30,12 @@ public class BuyItemAction extends ActionSupport implements SessionAware {
 		return result;
 	}
 
-	public int getStock() {
-		return stock;
+	public int getCount() {
+		return count;
 	}
 
-	public void setStock(int stock) {
-		this.stock = stock;
+	public void setCount(int count) {
+		this.count = count;
 
 	}
 

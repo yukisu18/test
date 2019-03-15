@@ -40,9 +40,9 @@ public class MyPageAction extends ActionSupport implements SessionAware {
 
 		if (res > 0) {
 			myPageList = null;
-			setmessage("商品情報を正しく削除しました。");
+			setMessage("商品情報を正しく削除しました。");
 		} else if (res == 0) {
-			setmessage("商品の削除に失敗しました。");
+			setMessage("商品の削除に失敗しました。");
 		}
 	}
 
@@ -63,7 +63,7 @@ public class MyPageAction extends ActionSupport implements SessionAware {
 		return message;
 	}
 
-	public void setmessage(String message) {
+	public void setMessage(String message) {
 		this.message = message;
 	}
 }

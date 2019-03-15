@@ -16,4 +16,5 @@
 <fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
 <fullyQualifiedTypeName name="com.internousdev.template.dao.MyPageDAO"/>
 <fullyQualifiedTypeName name="com.internousdev.template.dto.MyPageDTO"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

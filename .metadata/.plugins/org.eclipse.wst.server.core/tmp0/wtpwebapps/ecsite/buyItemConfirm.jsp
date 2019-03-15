@@ -11,7 +11,7 @@
 <meta name="description" content="" />
 <meta name="keywords" content="" />
 <script
-	src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.mins.js"></script>
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <title>buyItemConfirm画面</title>
 
 <style type="text/css">
@@ -58,6 +58,12 @@ table {
 	clear: both;
 }
 </style>
+<script type="text/javascript">
+	function submitAction(url) {
+		$('form').attr('action', url);
+		$('form').submit();
+	}
+</script>
 
 </head>
 <body>
@@ -69,7 +75,7 @@ table {
 			<p>BuyItemConfirm</p>
 		</div>
 		<div>
-			<s:form action="BuyItemConfirmAction">
+			<s:form>
 				<table>
 					<tr>
 						<td>商品名</td>
@@ -77,16 +83,16 @@ table {
 					</tr>
 					<tr>
 						<td>値段</td>
-						<td><s:property value="session.buyItem_price" /> <span>円</span>
+						<td><s:property value="session.total_price" /> <span>円</span>
 						</td>
 					</tr>
 					<tr>
 						<td>購入個数</td>
-						<td><s:property value="session.stock" /> <span>個</span></td>
+						<td><s:property value="session.count" /> <span>個</span></td>
 					</tr>
 					<tr>
 						<td>支払い方法</td>
-						<td><s:property value="session.count" /><span>個</span></td>
+						<td><s:property value="session.pay" /></td>
 					<tr>
 						<td><br></td>
 					</tr>
@@ -95,7 +101,8 @@ table {
 							onclick="submitAction('HomeAction')" /></td>
 					</tr>
 					<tr>
-						<td><input type="button" value="戻る" onclick="submitAction('BuyItemConfirmAction')">
+						<td><input type="button" value="完了"
+							onclick="submitAction('BuyItemConfirmAction')">
 						<td>
 					</tr>
 				</table>

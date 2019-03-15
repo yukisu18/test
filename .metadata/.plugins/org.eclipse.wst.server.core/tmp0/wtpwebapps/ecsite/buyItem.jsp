@@ -81,8 +81,8 @@ table {
 						</td>
 					</tr>
 					<tr>
-						<td><span>在庫</span></td>
-						<td><select name="stock">
+						<td><span>購入個数</span></td>
+						<td><select name="count">
 								<option value="1" selected="selected">1</option>
 								<option value="2">2</option>
 								<option value="3">3</option>
@@ -102,7 +102,12 @@ table {
 				</table>
 			</s:form>
 			<div>
-				<span>前画面に戻る場合は</span> <a href='<s:url action="HomeAction"/>'>こちら</a>
+				<p>
+					前画面に戻る場合は<a href='<s:url action="GoHomeAction"/>'>こちら</a>
+				</p>
+				<p>
+					マイページは<a href='<s:url action="MyPageAction"/>'>こちら</a>
+				</p>
 			</div>
 		</div>
 	</div>

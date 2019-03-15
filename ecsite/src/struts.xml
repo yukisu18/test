@@ -23,7 +23,7 @@
 		<!-- LoginAction -->
 		<action name="LoginAction" class="com.internousdev.ecsite.action.LoginAction"
 			method="execute">
-			<result name="success">buyitem.jsp</result>
+			<result name="success">buyItem.jsp</result>
 			<result name="error">login.jsp</result>
 		</action>
 		<!-- UserCreateAction -->
@@ -57,7 +57,7 @@
 		<!-- MypageAction -->
 		<action name="MyPageAction" class="com.internousdev.ecsite.action.MyPageAction"
 			method="execute">
-			<result name="success">mypage.jsp</result>
+			<result name="success">myPage.jsp</result>
 		</action>
 		<!-- LogoutAction -->
 		<action name="LogoutAction" class="com.internousdev.ecsite.action.LogoutAction"

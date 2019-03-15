@@ -18,7 +18,7 @@ public class MyPageDAO {
 			throws SQLException {
 		ArrayList<MyPageDTO> myPageDTO = new ArrayList<MyPageDTO>();
 
-		String sql = "SELECTFROM use iit.item_name,ubit.total_price,ubit.total_count,ubit.pay FROM user_buy_item_transaction ubit LEFT JOIN item_info_transaction iit ON ubit.item_transaction_id=iit.id WHERE ubit.item_transaction_id=? AND user_master_id=? ORDER BY ubit.insert_date DESC";
+		String sql = "SELECT ubit.id,iit.item_name,ubit.total_price,ubit.total_count,ubit.pay,ubit.insert_date FROM user_buy_item_transaction ubit LEFT JOIN item_info_transaction iit ON ubit.item_transaction_id=iit.id WHERE ubit.item_transaction_id=? AND ubit.user_master_id=? ORDER BY insert_date DESC";
 
 		try {
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -32,7 +32,8 @@ public class MyPageDAO {
 				dto.setItemName(resultSet.getString("item_name"));
 				dto.setTotalPrice(resultSet.getString("total_price"));
 				dto.setTotalCount(resultSet.getString("total_count"));
-				dto.setInsert_Date(resultSet.getString("insert_date"));
+				dto.setPayment(resultSet.getString("pay"));
+				dto.setInsert_date(resultSet.getString("insert_date"));
 				myPageDTO.add(dto);
 			}
 		} catch (Exception e) {
